@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './partials/variables';
+
+
+body{
+    background-color: #e9ecf4;
+    font-family: 'Bree Serif', serif;
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 100%
+}
+    
+
+a{
+    text-decoration: none;
+    color: $h2color;
+    font-weight: bold;
+}
+
+
+@import './partials/grid';
+@import './partials/header';
+@import './partials/productos';
+@import './partials/responsive';
+@import './partials/footer';
