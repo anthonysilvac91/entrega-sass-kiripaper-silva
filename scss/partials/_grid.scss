@@ -17,6 +17,7 @@
     "box-5 box-5 box-6 box-6"
     "titulo-3 titulo-3 titulo-3 titulo-3"
     "box-7 box-7 box-8 box-8"
+    "seo seo seo seo"
     "pie pie pie pie";
 }
 
@@ -35,8 +36,13 @@
     grid-area: banner;
 
 }
+.seo{
+    grid-area: seo;
+    @include secciones;
+}
 .carousel{
     grid-area: carrusel;
+    
 }
 .titulo-1{
     grid-area: titulo-1;

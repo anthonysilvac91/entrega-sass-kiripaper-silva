@@ -1,4 +1,4 @@
-@media (max-width: 786px){
+@media (max-width: 896px){
     .grid{ grid-template-areas:
         "header header header header"
         "banner banner banner banner"
@@ -9,12 +9,13 @@
         "titulo-2 titulo-2 titulo-2 titulo-2"
         "box-5 box-5 box-6 box-6"
         "titulo-3 titulo-3 titulo-3 titulo-3"
-        "box-7 box-7 box-8 box-8";
+        "box-7 box-7 box-8 box-8"
+        "seo seo seo seo";
        
     }
     .box-1, .box-2, .box-3, .box-4{
         strong{
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
         h3{
             font-size: 1.1rem;
@@ -23,7 +24,7 @@
             font-size: .9rem ;
         }
         a{
-            font-size: .7rem ;
+            font-size: .8rem ;
         }
     }
     .box-5, .box-6{
@@ -36,6 +37,14 @@
         p{
             font-size: .9rem;
         }
+    }
+}
+.seo{
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: .8rem;
     }
 }
 
@@ -55,6 +64,7 @@
         "box-6 box-6 box-6 box-6"
         "titulo-3 titulo-3 titulo-3 titulo-3"
         "box-7 box-7 box-7 box-7"
-        "box-8 box-8 box-8 box-8";
+        "box-8 box-8 box-8 box-8"
+        "seo seo seo seo";
     }
 }
