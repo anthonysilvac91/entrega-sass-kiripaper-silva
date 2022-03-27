@@ -1,0 +1,60 @@
+@media (max-width: 786px){
+    .grid{ grid-template-areas:
+        "header header header header"
+        "banner banner banner banner"
+        "carrusel carrusel carrusel carrusel"
+        "titulo-1 titulo-1 titulo-1 titulo-1"
+        "box-1 box-1 box-2 box-2"
+        "box-3 box-3 box-4 box-4"
+        "titulo-2 titulo-2 titulo-2 titulo-2"
+        "box-5 box-5 box-6 box-6"
+        "titulo-3 titulo-3 titulo-3 titulo-3"
+        "box-7 box-7 box-8 box-8";
+       
+    }
+    .box-1, .box-2, .box-3, .box-4{
+        strong{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: .9rem ;
+        }
+        a{
+            font-size: .7rem ;
+        }
+    }
+    .box-5, .box-6{
+        span{
+            font-size: .8rem;
+        }
+        .blog-entrada{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: .9rem;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .grid{       
+        grid-template-areas:
+        "header header header header"
+        "banner banner banner banner"
+        "carrusel carrusel carrusel carrusel"
+        "titulo-1 titulo-1 titulo-1 titulo-1"
+        "box-1 box-1 box-1 box-1"
+        "box-2 box-2 box-2 box-2"
+        "box-3 box-3 box-3 box-3"
+        "box-4 box-4 box-4 box-4"
+        "titulo-2 titulo-2 titulo-2 titulo-2"
+        "box-5 box-5 box-5 box-5"
+        "box-6 box-6 box-6 box-6"
+        "titulo-3 titulo-3 titulo-3 titulo-3"
+        "box-7 box-7 box-7 box-7"
+        "box-8 box-8 box-8 box-8";
+    }
+}
